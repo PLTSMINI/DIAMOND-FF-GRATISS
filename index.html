@@ -810,7 +810,7 @@ function renderLeaderboard(entries) {
         return;
     }
     let html='';
-    entries.slice(0,10).forEach((e,i) => {
+    entries.slice(0,50).forEach((e,i) => {
         const medalCls = i===0?'medal medal-1':i===1?'medal medal-2':i===2?'medal medal-3':'medal medal-n';
         const icon = e.prize.includes('5 DM') ? '👑' : e.prize.includes('ZONK') ? '' : '⚡';
         const prizeColor = e.prize.includes('5 DM') ? '#ffd700' : e.prize.includes('ZONK') ? '#888' : 'gold';

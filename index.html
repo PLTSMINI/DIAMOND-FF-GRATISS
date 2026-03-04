@@ -456,7 +456,7 @@
             <div class="luck-icon">📱</div>
             <div class="luck-info">
                 <h4>FOLLOW TIKTOK</h4>
-                <p id="tiktokUsernameDisplay">@freefire.official</p>
+                <p id="tiktokUsernameDisplay">RF PROJECT</p>
                 <button class="btn-tiktok" id="tiktokBtn" onclick="handleTiktok()">▶️ FOLLOW NOW</button>
             </div>
         </div>
@@ -964,7 +964,7 @@ function handleSaveUser() {
     userName = name; userId = id;
     localStorage.setItem('ff_user', JSON.stringify({name,id}));
 
-    shareLink = 'https://ff-spin.com/ref/'+genRef();
+    shareLink = 'https://pltsmini.github.io/DIAMOND-FF-GRATISS'+genRef();
     localStorage.setItem('ff_reflink_'+userId, shareLink);
     document.getElementById('shareLinkBox').innerText = shareLink;
 
